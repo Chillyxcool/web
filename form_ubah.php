@@ -5,11 +5,11 @@
 <body>
   <h1>Ubah Data VIP</h1>
   <?php
-  // Load file koneksi.php
+  
   include "koneksi.php";
-  // Ambil data ID yang dik
+  
   $id = $_GET['id'];
-  // Query untuk menampilka
+  
   $sql = $pdo->prepare("SELECT * FROM data WHERE id=:id");
   $sql->bindParam(':id', $id);
   $sql->execute();
