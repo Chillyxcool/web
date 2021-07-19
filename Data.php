@@ -35,10 +35,10 @@
   <?php
   // Include / load file koneksi.php
   include "koneksi.php";
-  // Buat query untuk menampilkan semua data datasiswa
+
   $sql = $pdo->prepare("SELECT * FROM data");
-  $sql->execute(); // Eksekusi querynya
-  while($data = $sql->fetch()){ // Ambil semua data dari hasil eksekusi $sql
+  $sql->execute(); 
+  while($data = $sql->fetch()){ 
     echo "<tr>";
     echo "<td>".$data['nama']."</td>";
     echo "<td>".$data['negara']."</td>";
