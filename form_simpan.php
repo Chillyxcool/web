@@ -14,8 +14,10 @@
       <i class="fas fa-bars"></i>
     </label>
     <ul>
+    <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="data.php">Data</a></li>
+        <li><a href="sorting.php">Data</a></li>
+        <li><a href="data.php">Edit</a></li>
         <li><a href="form_simpan.php">Add</a></li>
         <li><a href="login.php">LOGOUT</a></li>
       </ul>
